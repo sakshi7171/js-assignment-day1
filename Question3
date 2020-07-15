@@ -1,0 +1,45 @@
+###Different Data Types in Javascript###
+
+/// String - 	represents sequence of characters e.g. "hello"
+The string data type in JavaScript can be any group of characters enclosed by a single or double-quotes or by backticks.
+Examples:
+var str1 = “This is a string1”;  // This is a string primitive type or string literal
+var str2= ‘This is a string2’;
+var str3 = `This is a string3`;
+
+/// Number -	represents numeric values e.g. 100
+A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
+Examples:
+var a=250;  // integer value
+var b=25.5;  // a number containing a decimal 
+
+
+/// Boolean -	represents boolean value either false or true
+The boolean data type has only two values, true and false. It is mostly used to check a logical condition. 
+Thus Booleans are logical data types which can be used for comparison of two variables or to check a condition. The true and false implies a ‘yes’ for ‘true’ and a ‘no’ for ‘false in some places when we check a condition or the existence of a variable or a value.
+
+When we check the data type of ‘true’ or ‘false’ using typeof operator, it returns a boolean.
+Examples:
+typeof(true) // returns boolean
+typeof(false) // returns boolean
+
+/// Undefined -	represents undefined value
+Undefined data type means a variable that is not defined. The variable is declared but doesn’t contain any value.
+Example:
+var a;
+console.log(a); // This will return undefined.
+
+/// Null -	represents null i.e. no value at all
+The null in JavaScript is a data type that is represented by only one value, the ‘null’ itself. A null value means no value.
+Example:
+var a = null;
+console.log(a);   // This returns null
+
+
+/// Object:
+The ‘object’ is a non-primitive data type in JavaScript. Arrays and Functions in JavaScript belong to the ‘object’ data type.
+Example:
+obj1[a] =7;
+console.log(obj1) // will return the value {a: 7, b: 6}
+
+
